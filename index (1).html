@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sonrisa Fácil | Clínica Dental</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- ENCABEZADO -->
+    <!-- ============================= -->
+
+    <header class="header">
+
+        <a href="#inicio" class="logo" onclick="mostrarSeccion('inicio')">
+            🦷 Sonrisa Fácil
+        </a>
+
+        <nav class="nav">
+
+            <a href="#inicio" onclick="mostrarSeccion('inicio')">
+                Inicio
+            </a>
+
+            <a href="#servicios" onclick="mostrarSeccion('servicios')">
+                Servicios
+            </a>
+
+            <a href="#citas" onclick="mostrarSeccion('citas')">
+                Citas
+            </a>
+
+            <a href="#contacto" onclick="mostrarSeccion('contacto')">
+                Contacto
+            </a>
+
+        </nav>
+
+        <button
+            class="btn btn-primary"
+            onclick="mostrarSeccion('citas')">
+
+            Agendar cita
+
+        </button>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- ================================================= -->
+        <!-- VENTANA 1 - INICIO -->
+        <!-- ================================================= -->
+
+        <section id="inicio" class="seccion activa">
+
+            <div class="hero">
+
+                <div class="hero-text">
+
+                    <span class="etiqueta">
+                        Cuidado dental con cariño
+                    </span>
+
+                    <h1>
+                        Tu sonrisa,
+                        <span>nuestra prioridad.</span>
+                    </h1>
+
+                    <p>
+                        En Sonrisa Fácil puedes conocer nuestros servicios
+                        y solicitar una cita de manera sencilla y rápida.
+                    </p>
+
+                    <div class="acciones">
+
+                        <button
+                            class="btn btn-primary"
+                            onclick="mostrarSeccion('citas')">
+
+                            Agendar cita
+
+                        </button>
+
+                        <button
+                            class="btn btn-secondary"
+                            onclick="mostrarSeccion('servicios')">
+
+                            Ver servicios
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- IMAGEN PRINCIPAL -->
+
+                <div class="hero-imagen">
+
+                    <img
+                        src="c:\Users\Andrea\Downloads\WhatsApp Image 2026-09-28 at 10.41.44 PM.jpeg"
+                        alt="Clínica dental">
+
+                    <div class="imagen-placeholder">
+
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SERVICIOS DESTACADOS -->
+
+            <div class="titulo-seccion">
+
+                <span>
+                    Conoce nuestras opciones
+                </span>
+
+                <h2>
+                    Servicios destacados
+                </h2>
+
+            </div>
+
+
+            <div class="cards">
+
+
+                <!-- SERVICIO 1 -->
+
+                <article class="card">
+
+                    <div class="icono rosa">
+                        ✨
+                    </div>
+
+                    <h3>
+                        Limpieza dental
+                    </h3>
+
+                    <p>
+                        Cuidado preventivo para mantener
+                        una sonrisa saludable.
+                    </p>
+
+                    <button
+                        class="link-btn"
+                        onclick="mostrarServicio(
+                        'Limpieza dental',
+                        'Servicio enfocado en la limpieza y cuidado preventivo de los dientes.'
+                        )">
+
+                        Ver más →
+
+                    </button>
+
+                </article>
+
+
+                <!-- SERVICIO 2 -->
+
+                <article class="card">
+
+                    <div class="icono verde">
+                        🩺
+                    </div>
+
+                    <h3>
+                        Revisión odontológica
+                    </h3>
+
+                    <p>
+                        Consulta para conocer el estado
+                        general de tu salud bucal.
+                    </p>
+
+                    <button
+                        class="link-btn"
+                        onclick="mostrarServicio(
+                        'Revisión odontológica',
+                        'Consulta para revisar el estado general de la salud bucal y detectar necesidades de atención.'
+                        )">
+
+                        Ver más →
+
+                    </button>
+
+                </article>
+
+
+                <!-- SERVICIO 3 -->
+
+                <article class="card">
+
+                    <div class="icono azul">
+                        🦷
+                    </div>
+
+                    <h3>
+                        Tratamientos
+                    </h3>
+
+                    <p>
+                        Opciones de atención de acuerdo
+                        con las necesidades del paciente.
+                    </p>
+
+                    <button
+                        class="link-btn"
+                        onclick="mostrarServicio(
+                        'Tratamientos',
+                        'Opciones de atención odontológica de acuerdo con las necesidades de cada paciente.'
+                        )">
+
+                        Ver más →
+
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- VENTANA 2 - SERVICIOS -->
+        <!-- ================================================= -->
+
+        <section id="servicios" class="seccion">
+
+            <div class="titulo-pagina">
+
+                <span class="etiqueta">
+                    Sonrisa Fácil
+                </span>
+
+                <h1>
+                    Nuestros servicios
+                </h1>
+
+                <p>
+                    Consulta las opciones disponibles
+                    y conoce más sobre cada servicio.
+                </p>
+
+            </div>
+
+
+            <div class="servicios-grid">
+
+
+                <!-- LIMPIEZA -->
+
+                <article class="servicio-card rosa-card">
+
+                    <div class="servicio-imagen">
+
+                        <img
+                            src="c:\Users\Andrea\Downloads\DIENTES CON SARRO, ¿CÓMO QUITARLO_.jpg"
+                            alt="Limpieza dental">
+
+                        <span>
+                            ✨
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Limpieza dental
+                    </h3>
+
+                    <p>
+                        Servicio enfocado en el cuidado
+                        y limpieza de los dientes.
+                    </p>
+
+                    <button
+                        class="btn btn-small"
+                        onclick="mostrarServicio(
+                        'Limpieza dental',
+                        'La limpieza dental representa un servicio de cuidado e higiene bucal. En esta página puedes consultar información antes de solicitar una cita.'
+                        )">
+
+                        Ver información
+
+                    </button>
+
+                </article>
+
+
+                <!-- REVISION -->
+
+                <article class="servicio-card verde-card">
+
+                    <div class="servicio-imagen">
+
+                        <img
+                            src="c:\Users\Andrea\Downloads\Sorrindo, paciente, e, odontólogo, tendo, um, conversação, em, dental, clínica _ Foto Premium.jpg"
+                            alt="Revisión odontológica">
+
+                        <span>
+                            🩺
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Revisión odontológica
+                    </h3>
+
+                    <p>
+                        Revisión general para conocer
+                        las necesidades de atención.
+                    </p>
+
+                    <button
+                        class="btn btn-small"
+                        onclick="mostrarServicio(
+                        'Revisión odontológica',
+                        'La revisión odontológica permite conocer el estado general de la salud bucal y orientar la atención.'
+                        )">
+
+                        Ver información
+
+                    </button>
+
+                </article>
+
+
+                <!-- TRATAMIENTOS -->
+
+                <article class="servicio-card azul-card">
+
+                    <div class="servicio-imagen">
+
+                        <img
+                            src="c:\Users\Andrea\Downloads\7 Simple Ways to Improve Patient Retention in Your___.jpg"
+                            alt="Tratamientos dentales">
+
+                        <span>
+                            🦷
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Tratamientos
+                    </h3>
+
+                    <p>
+                        Atención de acuerdo con
+                        las necesidades del paciente.
+                    </p>
+
+                    <button
+                        class="btn btn-small"
+                        onclick="mostrarServicio(
+                        'Tratamientos',
+                        'Esta sección representa la consulta de los tratamientos disponibles en Sonrisa Fácil.'
+                        )">
+
+                        Ver información
+
+                    </button>
+
+                </article>
+
+
+                <!-- PREVENCIÓN -->
+
+                <article class="servicio-card lila-card">
+
+                    <div class="servicio-imagen sin-imagen">
+                        <img
+                        src="c:\Users\Andrea\Downloads\Invisalign Pain_ What’s Normal and How to Manage It.jpg"
+                        alt="Prevencion">
+
+                        💗
+
+                    </div>
+
+                    <h3>
+                        Atención preventiva
+                    </h3>
+
+                    <p>
+                        Orientación para favorecer
+                        el cuidado de la salud bucal.
+                    </p>
+
+                    <button
+                        class="btn btn-small"
+                        onclick="mostrarServicio(
+                        'Atención preventiva',
+                        'Esta opción representa información relacionada con el cuidado preventivo de la salud bucal.'
+                        )">
+
+                        Ver información
+
+                    </button>
+
+                </article>
+
+            </div>
+
+
+            <div class="centrado">
+
+                <button
+                    class="btn btn-primary"
+                    onclick="mostrarSeccion('citas')">
+
+                    Agendar una cita
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- VENTANA 3 - CITAS -->
+        <!-- ================================================= -->
+
+        <section id="citas" class="seccion">
+
+            <div class="titulo-pagina">
+
+                <span class="etiqueta">
+                    Reserva tu espacio
+                </span>
+
+                <h1>
+                    Agendar cita
+                </h1>
+
+                <p>
+                    Completa el formulario para solicitar una cita.
+                </p>
+
+            </div>
+
+
+            <div class="form-contenedor">
+
+                <form id="formCita" class="formulario">
+
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre completo
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            placeholder="Escribe tu nombre"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="telefono">
+                            Teléfono
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="telefono"
+                            placeholder="10 dígitos"
+                            maxlength="10"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="fecha">
+                            Fecha
+                        </label>
+
+                        <input
+                            type="date"
+                            id="fecha"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="hora">
+                            Hora
+                        </label>
+
+                        <input
+                            type="time"
+                            id="hora"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="servicio">
+                            Servicio
+                        </label>
+
+                        <select id="servicio" required>
+
+                            <option value="">
+                                Selecciona un servicio
+                            </option>
+
+                            <option>
+                                Limpieza dental
+                            </option>
+
+                            <option>
+                                Revisión odontológica
+                            </option>
+
+                            <option>
+                                Tratamientos
+                            </option>
+
+                            <option>
+                                Atención preventiva
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="correo">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            id="correo"
+                            placeholder="correo@ejemplo.com"
+                            required>
+
+                    </div>
+
+
+                    <button
+                        class="btn btn-primary btn-form"
+                        type="submit">
+
+                        Confirmar cita
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- VENTANA 4 - CONTACTO -->
+        <!-- ================================================= -->
+
+        <section id="contacto" class="seccion">
+
+            <div class="titulo-pagina">
+
+                <span class="etiqueta">
+                    Estamos para ayudarte
+                </span>
+
+                <h1>
+                    Contacto
+                </h1>
+
+                <p>
+                    Consulta nuestra información
+                    o envíanos un mensaje.
+                </p>
+
+            </div>
+
+
+            <div class="contacto-grid">
+
+
+                <div class="info-contacto">
+
+                    <h2>
+                        Información
+                    </h2>
+
+
+                    <div class="dato">
+
+                        <span>📞</span>
+
+                        <div>
+
+                            <strong>
+                                Teléfono
+                            </strong>
+
+                            <p>
+                                722 000 0000
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dato">
+
+                        <span>✉️</span>
+
+                        <div>
+
+                            <strong>
+                                Correo
+                            </strong>
+
+                            <p>
+                                contacto@sonrisafacil.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dato">
+
+                        <span>🕐</span>
+
+                        <div>
+
+                            <strong>
+                                Horario
+                            </strong>
+
+                            <p>
+                                Lunes a viernes,
+                                9:00 a 17:00
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="dato">
+
+                        <span>📍</span>
+
+                        <div>
+
+                            <strong>
+                                Ubicación
+                            </strong>
+
+                            <p>
+                                Villa Victoria,
+                                Estado de México
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULARIO CONTACTO -->
+
+                <form
+                    id="formContacto"
+                    class="formulario formulario-contacto">
+
+
+                    <div class="campo">
+
+                        <label for="contactoNombre">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            id="contactoNombre"
+                            placeholder="Tu nombre"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="contactoCorreo">
+                            Correo
+                        </label>
+
+                        <input
+                            type="email"
+                            id="contactoCorreo"
+                            placeholder="Tu correo"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo campo-completo">
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            rows="6"
+                            placeholder="Escribe tu mensaje"
+                            required></textarea>
+
+                    </div>
+
+
+                    <button
+                        class="btn btn-primary"
+                        type="submit">
+
+                        Enviar mensaje
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- VENTANA 5 - CONFIRMACIÓN -->
+        <!-- ================================================= -->
+
+        <section
+            id="confirmacion"
+            class="seccion confirmacion">
+
+            <div class="confirmacion-card">
+
+                <div class="check">
+                    ✓
+                </div>
+
+                <h1 id="tituloConfirmacion">
+                    ¡Cita registrada!
+                </h1>
+
+                <p id="textoConfirmacion">
+                    Tu solicitud fue enviada correctamente.
+                </p>
+
+
+                <div
+                    id="resumenCita"
+                    class="resumen">
+
+                </div>
+
+
+                <button
+                    class="btn btn-primary"
+                    onclick="mostrarSeccion('inicio')">
+
+                    Volver al inicio
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================================= -->
+    <!-- MODAL PARA INFORMACIÓN DE SERVICIO -->
+    <!-- ================================================= -->
+
+    <div
+        id="modalServicio"
+        class="modal">
+
+        <div class="modal-contenido">
+
+            <button
+                class="cerrar"
+                onclick="cerrarModal()">
+
+                ×
+
+            </button>
+
+            <div class="modal-icono">
+                🦷
+            </div>
+
+            <h2 id="modalTitulo">
+            </h2>
+
+            <p id="modalTexto">
+            </p>
+
+            <button
+                class="btn btn-primary"
+                onclick="
+                    cerrarModal();
+                    mostrarSeccion('citas');
+                ">
+
+                Agendar cita
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================================= -->
+    <!-- FOOTER -->
+    <!-- ================================================= -->
+
+    <footer class="footer">
+
+        <p>
+            🦷
+            <strong>
+                Sonrisa Fácil
+            </strong>
+
+            · Cuidado y atención para tu sonrisa
+        </p>
+
+        <p>
+            Contacto · Aviso de privacidad
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
